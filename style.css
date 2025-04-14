@@ -524,10 +524,13 @@ header{
     .home .content h3{
       font-size: 4.5rem;
     }
+
+  .about .row .content p,
+  .objective .row .content p,
+  .review .box-container .box p {
+    font-size: 1.8rem; 
+  }
     
-    .row .content p{
-      font-size: 2.0rem;
-    }
 }
 
 
