@@ -277,6 +277,41 @@ header{
   line-height: 1.8;
 }
 
+/*addition*/
+.objective{
+  padding: 100px 15px;
+  background: var(--verde);
+}
+
+.objective .row{
+  display: flex;
+  align-items: center;
+  background: var(--verde);
+  flex-wrap: wrap;
+}
+
+.objective .heading span{
+  color: var(--branco);
+  text-transform: uppercase;
+}
+
+.objective .row .content {
+  flex: 1 1 45rem;
+  padding: 2rem;
+}
+
+.objective .row .content h3{
+  font-size: 3rem;
+  color: var(--laranja);
+}
+
+.objective .row .content p{
+  font-size: 1.6rem;
+  color: #eee;
+  padding: 1rem 0;
+  line-height: 1.8;
+}
+
 .review .box-container{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
