@@ -21,7 +21,6 @@
   outline: none;
   border: none;
   text-decoration: none;
-  text-transform: capitalize;
   transition: .2s linear;
 }
 
@@ -267,12 +266,12 @@ header{
 
 .about .row .content h3{
   font-size: 3rem;
-  color: var(--black);
+  color: var(--laranja);
 }
 
 .about .row .content p{
   font-size: 1.6rem;
-  color: dimgray;
+  color: var(--verde);
   padding: 1rem 0;
   line-height: 1.8;
 }
